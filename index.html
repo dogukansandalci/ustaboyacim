@@ -29,8 +29,8 @@
     <!-- 1. BÖLÜM: HEADER (NAVİGASYON) -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
-            <!-- Logo -->
-            <a href="#" class="text-3xl font-extrabold text-blue-600">
+            <!-- Logo (Bu sayfada olduğu için #) -->
+            <a href="index.html" class="text-3xl font-extrabold text-blue-600">
                 Usta Boyacım
             </a>
             
@@ -39,10 +39,12 @@
                 <a href="#hizmetler" class="text-gray-600 hover:text-blue-600 font-medium">Hizmetlerimiz</a>
                 <a href="#galeri" class="text-gray-600 hover:text-blue-600 font-medium">Galeri</a>
                 <a href="#hakkimizda" class="text-gray-600 hover:text-blue-600 font-medium">Neden Biz?</a>
-                <a href="#iletisim" class="text-gray-600 hover:text-blue-600 font-medium">İletişim</a>
+                <!-- Link "bize-ulasin.html" olarak güncellendi -->
+                <a href="bize-ulasin.html" class="text-gray-600 hover:text-blue-600 font-medium">İletişim</a>
             </div>
             
-            <!-- Arama Butonu (Müşterinin size hızla ulaşması için) -->
+            <!-- "Hemen Ara" Butonu (Müşterinin size hızla ulaşması için) -->
+            <!-- Link, ikon ve metin "Hemen Ara" olarak geri değiştirildi -->
             <a href="tel:05555555555" class="hidden md:flex items-center bg-green-500 text-white px-5 py-2.5 rounded-lg font-bold shadow-lg hover:bg-green-600 transition-all">
                 <!-- Telefon ikonu -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -64,11 +66,13 @@
             <a href="#hizmetler" class="block px-6 py-3 text-lg text-gray-700 hover:bg-gray-100">Hizmetlerimiz</a>
             <a href="#galeri" class="block px-6 py-3 text-lg text-gray-700 hover:bg-gray-100">Galeri</a>
             <a href="#hakkimizda" class="block px-6 py-3 text-lg text-gray-700 hover:bg-gray-100">Neden Biz?</a>
-            <a href="#iletisim" class="block px-6 py-3 text-lg text-gray-700 hover:bg-gray-100">İletişim</a>
+            <!-- Link "bize-ulasin.html" olarak güncellendi -->
+            <a href="bize-ulasin.html" class="block px-6 py-3 text-lg text-gray-700 hover:bg-gray-100">İletişim</a>
             <div class="p-4">
+                <!-- Link, ikon ve metin "Hemen Ara" olarak geri değiştirildi -->
                 <a href="tel:05555555555" class="flex w-full justify-center items-center bg-green-500 text-white px-5 py-3 rounded-lg font-bold shadow-lg hover:bg-green-600 transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2.153a1 1 0 01-.986-.836l-.74-4.435a1 1 0 01.54-1.06l1.548-.773a11.037 11.037 0 00-6.105-6.105l-.773 1.548a1 1 0 01-1.06.54l-4.435-.74A1 1 0 013 3z" />
+                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2.153a1 1 0 01-.986-.836l-.74-4.435a1 1 0 01.54-1.06l1.548-.773a11.037 11.037 0 00-6.105-6.105l-.773 1.548a1 1 0 01-1.06.54l-4.435-.74A1 1 0 013 3z" />
                     </svg>
                     Hemen Ara
                 </a>
@@ -89,7 +93,8 @@
                         Profesyonel usta kadromuz, 1. sınıf malzeme ve %100 müşteri memnuniyeti garantisi ile evinizi veya ofisinizi söz verdiğimiz günde teslim ediyoruz.
                     </p>
                     <div class="mt-10 flex flex-col sm:flex-row gap-4">
-                        <a href="#iletisim" class="w-full sm:w-auto bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg text-center shadow-lg hover:bg-blue-700 transition-all">
+                        <!-- Link "bize-ulasin.html#form" olarak güncellendi (formun olduğu yeni sayfaya gider) -->
+                        <a href="bize-ulasin.html#form" class="w-full sm:w-auto bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg text-center shadow-lg hover:bg-blue-700 transition-all">
                             Ücretsiz Keşif Formu
                         </a>
                         <a href="#galeri" class="w-full sm:w-auto bg-gray-100 text-gray-800 px-8 py-4 rounded-lg font-bold text-lg text-center border-2 border-gray-300 hover:bg-gray-200 transition-all">
@@ -322,59 +327,24 @@
             </div>
         </section>
 
-        <!-- 8. BÖLÜM: İLETİŞİM FORMU (CALL TO ACTION) -->
-        <section id="iletisim" class="bg-blue-600 text-white">
-            <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                    <!-- Sol Taraf (Metin) -->
-                    <div>
-                        <h2 class="text-3xl md:text-4xl font-extrabold">
-                            Hemen Ücretsiz Keşif Randevusu Alın!
-                        </h2>
-                        <p class="mt-4 text-lg text-blue-100">
-                            Evinizin veya ofisinizin boya badana işleri için ne kadar bütçe ayırmanız gerektiğini öğrenmek için yandaki formu doldurun. Sizi 15 dakika içinde arayalım ve en uygun fiyat teklifini sunalım!
-                        </p>
-                        <div class="mt-8 space-y-4">
-                            <a href="tel:05555555555" class="flex items-center text-xl font-bold hover:text-blue-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-3" viewBox="0 0 20 20" fill="currentColor">
-                                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2.153a1 1 0 01-.986-.836l-.74-4.435a1 1 0 01.54-1.06l1.548-.773a11.037 11.037 0 00-6.105-6.105l-.773 1.548a1 1 0 01-1.06.54l-4.435-.74A1 1 0 013 3z" />
-                                </svg>
-                                0 (555) 555 55 55
-                            </a>
-                            <a href="mailto:info@ustaboyacim.com" class="flex items-center text-xl font-bold hover:text-blue-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-3" viewBox="0 0 20 20" fill="currentColor">
-                                    <path d="M2.003 5.884L10 10.417l7.997-4.533A2 2 0 0018 4H2a2 2 0 00-1.997 1.884z" />
-                                    <path d="M18 8.118l-8 4.533L2 8.118V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                                </svg>
-                                info@ustaboyacim.com
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Sağ Taraf (Form) -->
-                    <form action="#" method="POST" class="bg-white p-8 rounded-xl shadow-2xl space-y-5">
-                        <h3 class="text-2xl font-bold text-gray-800 text-center">Ücretsiz Fiyat Teklifi Alın</h3>
-                        <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700">Adınız Soyadınız</label>
-                            <input type="text" id="name" placeholder="Örn: Ali Yılmaz" class="mt-1 block w-full px-4 py-3 text-gray-800 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500">
-                        </div>
-                        <div>
-                            <label for="phone" class="block text-sm font-medium text-gray-700">Telefon Numaranız</label>
-                            <input type="tel" id="phone" placeholder="Örn: 0555 123 45 67" class="mt-1 block w-full px-4 py-3 text-gray-800 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500">
-                        </div>
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700">Mesajınız</lebel>
-                            <textarea id="message" rows="4" placeholder="Kısaca işinizi anlatın (örn: 3+1 ev boyanacak, eşyalar boş...)" class="mt-1 block w-full px-4 py-3 text-gray-800 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
-                        </div>
-                        <div>
-                            <button type="submit" class="w-full flex justify-center py-4 px-6 border border-transparent rounded-lg shadow-lg text-lg font-bold text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all">
-                                Teklifimi Gönder
-                            </button>
-                        </div>
-                    </form>
+        <!-- 8. BÖLÜM: İLETİŞİM ÇAĞRISI -->
+        <!-- Bu bölüm basitleştirildi ve direkt iletişim sayfasına yönlendiriyor -->
+        <section id="iletisim-cagrisi" class="bg-blue-600 text-white">
+            <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold">
+                    Hemen Ücretsiz Keşif Randevusu Alın!
+                </h2>
+                <p class="mt-4 text-lg text-blue-100 max-w-2xl mx-auto">
+                    Evinizin veya ofisinizin boya badana işleri için ne kadar bütçe ayırmanız gerektiğini öğrenmek için bize ulaşın. Sizi 15 dakika içinde arayalım!
+                </p>
+                <div class="mt-10">
+                    <a href="bize-ulasin.html#form" class="bg-white text-blue-600 px-10 py-4 rounded-lg font-bold text-lg shadow-lg hover:bg-gray-100 transition-all">
+                        Fiyat Teklifi Alın
+                    </a>
                 </div>
             </div>
         </section>
+        
     </main>
 
     <!-- 9. BÖLÜM: FOOTER -->
@@ -383,7 +353,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <!-- Sol Bölüm (Logo) -->
                 <div>
-                    <a href="#" class="text-2xl font-extrabold text-white">
+                    <a href="index.html" class="text-2xl font-extrabold text-white">
                         Usta Boyacım
                     </a>
                     <p class="mt-3 text-sm">
@@ -398,7 +368,8 @@
                         <li><a href="#hizmetler" class="hover:text-white">Hizmetlerimiz</a></li>
                         <li><a href="#galeri" class="hover:text-white">Galeri (Önce/Sonra)</a></li>
                         <li><a href="#hakkimizda" class="hover:text-white">Neden Biz?</a></li>
-                        <li><a href="#iletisim" class="hover:text-white">İletişim</a></li>
+                        <!-- Link "bize-ulasin.html" olarak güncellendi -->
+                        <li><a href="bize-ulasin.html" class="hover:text-white">İletişim</a></li>
                     </ul>
                 </div>
                 
@@ -406,11 +377,11 @@
                 <div>
                     <h4 class="text-lg font-bold text-white">Başlıca Hizmetler</h4>
                     <ul class="mt-4 space-y-2">
-                        <li><a href="#" class="hover:text-white">İç Cephe Boya Badana</a></li>
-                        <li><a href="#" class="hover:text-white">Dış Cephe Boyama</a></li>
-                        <li><a href="#" class="hover:text-white">Alçı ve Sıva İşleri</a></li>
-                        <li><a href="#" class="hover:text-white">Ofis Boyama</a></li>
-                        <li><a href="#" class="hover:text-white">Kartonpiyer</a></li>
+                        <li><a href="#hizmetler" class="hover:text-white">İç Cephe Boya Badana</a></li>
+                        <li><a href="#hizmetler" class="hover:text-white">Dış Cephe Boyama</a></li>
+                        <li><a href="#hizmetler" class="hover:text-white">Alçı ve Sıva İşleri</a></li>
+                        <li><a href="#hizmetler" class="hover:text-white">Ofis Boyama</a></li>
+                        <li><a href="#hizmetler" class="hover:text-white">Kartonpiyer</a></li>
                     </ul>
                 </div>
 
